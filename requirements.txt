@@ -1,0 +1,7 @@
+bibtexparser>=1.4.0
+requests>=2.31.0
+requests-cache>=1.1.0
+tqdm>=4.65.0
+streamlit>=1.28.0
+python-dotenv>=1.0.0
+biopython>=1.81  # For PubMed/Entrez API access 
