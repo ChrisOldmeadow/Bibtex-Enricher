@@ -13,6 +13,15 @@ Core functionality implemented:
 
 ## 🚀 Short-term Goals (Next Release)
 
+### Bibliography Format Support
+- [ ] CSV file support
+  - Minimum fields: authors, title, DOI
+  - Flexible column mapping
+  - Export to BibTeX
+- [ ] RIS format support
+- [ ] EndNote XML format support
+- [ ] Custom format configuration
+
 ### API Integrations
 - [ ] Add support for IEEE Xplore API
 - [ ] Add support for arXiv API
@@ -27,31 +36,37 @@ Core functionality implemented:
 - [ ] Add progress bars in web interface
 - [ ] Implement dark mode for web interface
 - [ ] Add API status indicators
+- [ ] Add file format selection in web interface
+- [ ] CSV column mapping interface
 
 ### Data Processing
 - [ ] Enhanced text cleaning options
 - [ ] Support for additional BibTeX fields
 - [ ] Custom field mapping configuration
+- [ ] Author name normalization across formats
 
 ## 🌟 Medium-term Goals
 
 ### Features
-- [ ] Batch processing of multiple BibTeX files
+- [ ] Batch processing of multiple files (any supported format)
 - [ ] Export statistics and logs
 - [ ] Custom API priority ordering
 - [ ] API fallback configuration
 - [ ] Citation count enrichment
+- [ ] Format conversion tools (CSV ↔ BibTeX ↔ RIS)
 
 ### Integration
 - [ ] Plugin system for custom API integrations
 - [ ] Reference management software integration
 - [ ] CI/CD pipeline setup
+- [ ] Format converter plugins
 
 ### Documentation
 - [ ] API integration guide
 - [ ] Developer documentation
 - [ ] User guide with examples
 - [ ] Performance optimization guide
+- [ ] Format specification guide
 
 ## 🎯 Long-term Vision
 
@@ -60,6 +75,8 @@ Core functionality implemented:
 - [ ] DOI prediction for entries without DOI
 - [ ] Automated metadata correction
 - [ ] Reference cross-linking
+- [ ] Smart format detection
+- [ ] Bulk format conversion with enrichment
 
 ### Platform
 - [ ] Web API service
@@ -89,4 +106,5 @@ We welcome contributions! If you'd like to work on any of these features or have
 
 - Priority of features may change based on user feedback
 - Some features may require additional API access or credentials
-- Performance implications will be considered for each feature 
+- Performance implications will be considered for each feature
+- Format support will focus on common academic reference formats 
